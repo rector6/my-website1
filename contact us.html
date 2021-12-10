@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <!-- <link rel="stylesheet" href="contact_us.css"> -->
+    <title>CONTACT US</title>
+    
+
+    <style>
+      .navbar{
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    z-index: 999;
+    background: 0;
+    border: 0;
+    border-radius: 0;
+    box-shadow: black;
+    margin-top: none;
+    background: rgb(99, 43, 69);
+    color: black;
+  }
+.btn1{
+    color: white;
+    font-weight: bold;
+}
+body{
+    background: rgb(95, 44, 68);
+
+}
+.section{
+    width: 100%;
+    min-height:100vh;
+  
+}
+.container1{
+    width:80%;
+    display: block;
+    margin: auto;
+    padding-top: 200px;
+}
+.contact-section{
+    float: left;
+    width: 55%;
+}
+.contact-info{
+    margin: 70px;
+    padding-left: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 65px;
+    color: white;
+}
+.contact-info i{
+    margin-right: 20px;
+    font-size: 35px;
+}
+.contact-form{
+    margin-right: 50px;
+    min-width: 500px;
+}
+.contact-info, .contact-form{
+    flex: 1;
+}
+.contact-form h2{
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+.contact-form .text-box{
+     border: none;
+     width: 20%;
+     height: 35px;
+     padding: 12px;
+     font-size: 15px;
+     border-radius: 10px;
+     box-shadow:  0 1px 1px;
+     margin-bottom: 30px;
+     outline: none;
+}
+::placeholder{
+    color: blue;
+}
+.contact-form .text-box:first-child{
+    margin-right: 15px;
+}
+.contact-form textarea{
+    border: ;
+    width: 40%;
+    padding: 12px;
+    font-size: 15px;
+    min-height: 100px;
+    max-height: 300px;
+    resize: vertical;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    outline: none;
+}
+.contact-form .send-btn{
+    float: right;
+    background: #2e94e3;
+    color: #fff;
+    border: none;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    transition: 0.3s;
+    transition-property: background;
+}
+.socia-icon{
+    margin: 20px;
+    
+    display: flex;
+}
+.img{
+    
+}
+.contact-form .send-btn:hover{
+    background:#0582E3 ;
+    
+}
+@media screen and (max-width:950px;){
+    .contact-section{
+        flex-direction: column;
+    }
+}
+.contact-info,.contact-form{
+    margin: 30px 50px;
+}
+.contact-form h2{
+    font-size: 30px;
+}
+.contact-form .text-box{
+    width: 20%;
+}
+/*-css for alert message----------*/
+.alert-success{
+    z-index: 1;
+    background: #D4ED0A;
+    font-size: 18px;
+    padding: 20px 40px;
+    position:fixed ;
+    min-width: 420px;
+    right: 0;
+    top: 10px;
+    border-left: 8px solid #3AD66E;
+    border-radius: 10px;
+
+}
+
+.alert-error{
+    z-index: 1;
+    background: #fff3Cd; 
+    font-size: 18px;
+    padding: 20px 40px;
+    position:fixed ;
+    min-width: 420px;
+    right: 0;
+    top: 10px;
+    border-left: 8px solid #FFA502;
+    border-radius: 10px;
+
+}
+    </style>
+  </head>
+  <body>
+    <!---Nav---------------------section-->
+    <div class="header">
+      <nav class="navbar navbar-expand navbar-dark bg-dark">
+          <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+              <form class="d-flex">
+                  <a class="btn btn1" type="submit" href="index.html">HOME</a>
+                  <a class="btn btn1" type="submit" href="About us.html">ABOUT US</a>
+                  <a class="btn btn1" type="submit" href="contact us.html">CONTACT US</a> 
+              </form>
+            </div>
+          </div>
+        </nav>
+  <
+    <!----------------aler message start ----->
+    <!---->
+    <!-- <div class="alert-success">
+      <span>Message Sent! Thank you for contacting us.  </span>
+    </div> -->
+     
+    <!-- <div class="aler error">
+      <span>Something went wrong! please try again plz</span>
+    </div> -->
+
+
+
+
+    <!----contact section--------->
+    <div class="section">
+      <div class="container1">
+        <div class="contact-section">
+          <div class="contact-info">
+             <div><i class="fas fa-map-marker-alt"></i>Aso A Pada,maraba,Nasarawa.</div>
+             <div><i class="fas fa-envelope"></i>Peteroche@gmail.com</div>
+             <div><i class="fas fa-phone"></i>+2348106133970</div>
+             <div><i class="fas fa-clock"></i>Mon - Fri 8:00AM to 5:00Pm</div>
+             <div><i class="fas fa-facebook"></i></div>
+          </div>
+        </div>
+        <div class="contact-form">
+          <h2>Contact us</h2>
+          <form class="contact" action="" method="post">
+            <input type="text" name="name" class="text-box" placeholder="Name" required>
+            <input type="email" name="email" class="text-box" placeholder="Email@gmail.com" required><br>
+            <textarea name="name" rows="5" placeholder="Your Message" required></textarea>
+            <input type="submit" name="submit" class="send-btn" value="Send">
+          </form> 
+        </div>
+           
+      </div>
+      <!-- <div class="socia-media">
+        <div class="socia-icon">
+          <a href="" class="img"><img src="facebook.png"></a>
+          <a href=""><img src="facebook.png"></a>
+          <a href=""><img src="facebook.png"></a>
+        </div>
+      </div> -->
+    </div>
+
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

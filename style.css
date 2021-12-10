@@ -1,0 +1,113 @@
+.navbar{
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    background: 0;
+    border: 0;
+    border-radius: 0;
+  }
+body{
+      background-color: rgb(35, 35, 187);
+  }
+.btn1{
+      color: white;
+}
+.my-carousel{
+    position: absolute;
+    top: 0;
+}
+.navbar.navbar-nav{
+    color:white !important ;
+}
+.form-control{
+    background: transparent;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.nav-link{
+    color: white;
+}
+.navbar-brand{
+    color: white;
+}
+/*---------------carousel contact us bottom-*/
+a{
+    outline: none;
+    list-style: none;
+}
+.fab{
+    margin: 20px;
+    border-radius: 20px;
+    border:1px solid ;
+    color: rgb(247, 243, 243);
+    
+}
+.btn2{
+    margin: 20px;
+    border-radius: 20px;
+    border:1px solid ;
+    color: white;
+}
+
+/* .btn3{
+    margin: 20px;
+    border-radius: 20px;
+    border:1px solid ;
+    color: white;
+} */
+/*--------------slider----------------*/
+ .carousel-item{
+     height: 100vh;
+     min-width: 300px;
+     background: no-repeat scroll center scroll;
+     -webkit-background-size: cover ;
+     background-size: cover;
+ }
+ .carousel-item::before{
+     content: "";
+     display: block;
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     background:#000 ;
+     opacity: 0.7;
+ }
+ .carousel-caption{
+     bottom: 150px; 
+     padding-left: 100px ;
+     padding-right: 100px;
+     text-align: center;
+ }
+ .carousel-caption h5{
+     font-size: 70px;
+     font-weight: 500;
+ }
+.carousel-caption p{
+    font-size: 18px;
+    top: 2rem;
+}
+.slider.btn{
+    margin-top: 30px;
+}
+
+.slider-btn .btn{
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 20px;
+    padding:1,5rem 2rem;
+    font-size: 1rem;
+    margin-right: 15px;
+}
+.slider-btn .btn{
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 20px;
+    padding:1,5rem 2rem;
+    font-size: 1rem;
+    margin-right: 15px;
+}
+/*--------about us-------------------*/
